@@ -30,6 +30,18 @@
                   "name": "Open"
                 },
                 {
+                  "entity": "sensor.nakiska_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.nakiska_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.nakiska_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
+                },
+                {
                   "entity": "sensor.nakiska_base_depth",
                   "name": "Base"
                 },
@@ -60,6 +72,18 @@
                 {
                   "entity": "sensor.sunshine_village_resort_status",
                   "name": "Open"
+                },
+                {
+                  "entity": "sensor.sunshine_village_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.sunshine_village_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.sunshine_village_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
                 },
                 {
                   "entity": "sensor.sunshine_village_base_depth",
@@ -94,6 +118,18 @@
                   "name": "Open"
                 },
                 {
+                  "entity": "sensor.lake_louise_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.lake_louise_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.lake_louise_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
+                },
+                {
                   "entity": "sensor.lake_louise_base_depth",
                   "name": "Base"
                 },
@@ -124,6 +160,18 @@
                 {
                   "entity": "sensor.norquay_resort_status",
                   "name": "Open"
+                },
+                {
+                  "entity": "sensor.norquay_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.norquay_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.norquay_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
                 },
                 {
                   "entity": "sensor.norquay_base_depth",
@@ -158,6 +206,18 @@
                   "name": "Open"
                 },
                 {
+                  "entity": "sensor.castle_mountain_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.castle_mountain_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.castle_mountain_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
+                },
+                {
                   "entity": "sensor.castle_mountain_base_depth",
                   "name": "Base"
                 },
@@ -188,6 +248,18 @@
                 {
                   "entity": "sensor.panorama_resort_status",
                   "name": "Open"
+                },
+                {
+                  "entity": "sensor.panorama_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.panorama_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.panorama_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
                 },
                 {
                   "entity": "sensor.panorama_base_depth",
@@ -222,6 +294,18 @@
                   "name": "Open"
                 },
                 {
+                  "entity": "sensor.kicking_horse_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.kicking_horse_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.kicking_horse_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
+                },
+                {
                   "entity": "sensor.kicking_horse_base_depth",
                   "name": "Base"
                 },
@@ -252,6 +336,18 @@
                 {
                   "entity": "sensor.fernie_resort_status",
                   "name": "Open"
+                },
+                {
+                  "entity": "sensor.fernie_summit_temperature",
+                  "name": "Summit temp"
+                },
+                {
+                  "entity": "sensor.fernie_forecast_high_next_24h",
+                  "name": "Forecast high 24 h"
+                },
+                {
+                  "entity": "sensor.fernie_forecast_low_next_24h",
+                  "name": "Forecast low 24 h"
                 },
                 {
                   "entity": "sensor.fernie_base_depth",

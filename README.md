@@ -2,8 +2,7 @@
 
 A Home Assistant dashboard ("Ski Hills") with two tabs:
 
-1. **Ski Conditions** — per-resort cards (open, base, powder now, snow next 24 h,
-   runs/lifts) for 8 resorts + one live webcam per resort, refreshed hourly.
+1. **Ski Conditions** — per-resort cards (open, summit temp, forecast high/low 24 h, base, powder now, snow next 24 h, runs/lifts) for 8 resorts + one live webcam per resort, refreshed hourly.
 2. **Road Conditions** — drive time / distance / worst surface condition per
    route from the Hwy 1 & Hwy 22 junction (Jct Hwy 1/22, west of Cochrane) to
    each resort, from the Alberta 511 route API, plus 6 Alberta 511 highway

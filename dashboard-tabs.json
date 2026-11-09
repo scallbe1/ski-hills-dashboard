@@ -1,0 +1,477 @@
+{
+  "views": [
+    {
+      "title": "Ski Conditions",
+      "path": "overview",
+      "icon": "mdi:ski-cross-country",
+      "type": "sections",
+      "max_columns": 3,
+      "sections": [
+        {
+          "type": "grid",
+          "cards": [
+            {
+              "type": "entities",
+              "title": "Ski data",
+              "show_header": true,
+              "entities": [
+                "button.ski_conditions_refresh_now",
+                "number.ski_conditions_update_interval"
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Nakiska",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.nakiska_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.nakiska_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.nakiska_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.nakiska_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.nakiska_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.nakiska_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Sunshine Village",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.sunshine_village_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.sunshine_village_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.sunshine_village_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.sunshine_village_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.sunshine_village_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.sunshine_village_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Lake Louise",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.lake_louise_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.lake_louise_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.lake_louise_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.lake_louise_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.lake_louise_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.lake_louise_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Mt Norquay",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.norquay_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.norquay_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.norquay_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.norquay_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.norquay_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.norquay_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Castle Mountain",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.castle_mountain_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.castle_mountain_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.castle_mountain_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.castle_mountain_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.castle_mountain_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.castle_mountain_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Panorama",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.panorama_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.panorama_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.panorama_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.panorama_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.panorama_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.panorama_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Kicking Horse",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.kicking_horse_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.kicking_horse_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.kicking_horse_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.kicking_horse_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.kicking_horse_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.kicking_horse_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Fernie",
+              "show_header": true,
+              "icon": null,
+              "entities": [
+                {
+                  "entity": "sensor.fernie_resort_status",
+                  "name": "Open"
+                },
+                {
+                  "entity": "sensor.fernie_base_depth",
+                  "name": "Base"
+                },
+                {
+                  "entity": "sensor.fernie_powder_depth",
+                  "name": "Powder now"
+                },
+                {
+                  "entity": "sensor.fernie_forecast_snowfall_next_24h",
+                  "name": "Snow next 24 h"
+                },
+                {
+                  "entity": "sensor.fernie_runs_open",
+                  "name": "Runs"
+                },
+                {
+                  "entity": "sensor.fernie_lifts_open",
+                  "name": "Lifts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "grid",
+          "columns": 4,
+          "cards": [
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_nakiska_mountain_cam",
+              "camera_image": "camera.ski_resort_cams_nakiska_mountain_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Nakiska"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_sunshine_village_cam",
+              "camera_image": "camera.ski_resort_cams_sunshine_village_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Sunshine Village"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_lake_louise_summit_cam",
+              "camera_image": "camera.ski_resort_cams_lake_louise_summit_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Lake Louise"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_mt_norquay_cam",
+              "camera_image": "camera.ski_resort_cams_mt_norquay_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Mt Norquay"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_castle_mountain_cam",
+              "camera_image": "camera.ski_resort_cams_castle_mountain_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Castle Mountain"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_panorama_mountain_cam",
+              "camera_image": "camera.ski_resort_cams_panorama_mountain_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Panorama"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_kicking_horse_summit_cam",
+              "camera_image": "camera.ski_resort_cams_kicking_horse_summit_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Kicking Horse"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_resort_cams_fernie_summit_cam",
+              "camera_image": "camera.ski_resort_cams_fernie_summit_cam",
+              "show_name": true,
+              "show_state": false,
+              "name": "Fernie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Road Conditions",
+      "path": "getting-there",
+      "icon": "mdi:car-arrow-right",
+      "type": "sections",
+      "max_columns": 2,
+      "sections": [
+        {
+          "type": "grid",
+          "cards": [
+            {
+              "type": "picture-entity",
+              "entity": "camera.ski_roads_hwy_1_w_of_hwy_22",
+              "camera_image": "camera.ski_roads_hwy_1_w_of_hwy_22",
+              "show_name": true,
+              "show_state": false,
+              "name": "Hwy 1 W of Hwy 22"
+            },
+            {
+              "type": "markdown",
+              "content": "{% set s = states('sensor.road_conditions_alberta_511_roads_to_ski_resorts') %}{% if 'Clear' in s %}\ud83d\udfe2{% elif 'Alert' in s %}\ud83d\udd34{% else %}\u26aa{% endif %} **{{ s }}**\n\nLive drive routes from **Jct Hwy 1/22** to each resort, via [Alberta 511](https://511.alberta.ca/map). Updates hourly."
+            },
+            {
+              "type": "entities",
+              "title": "Kananaskis & Banff",
+              "show_header": true,
+              "entities": [
+                {
+                  "entity": "sensor.road_conditions_alberta_511_nakiska_road",
+                  "name": "Nakiska"
+                },
+                {
+                  "entity": "sensor.road_conditions_alberta_511_mt_norquay_road",
+                  "name": "Mt Norquay"
+                },
+                {
+                  "entity": "sensor.road_conditions_alberta_511_sunshine_village_road",
+                  "name": "Sunshine Village"
+                },
+                {
+                  "entity": "sensor.road_conditions_alberta_511_lake_louise_road",
+                  "name": "Lake Louise"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Golden & Rogers Pass",
+              "show_header": true,
+              "entities": [
+                {
+                  "entity": "sensor.road_conditions_alberta_511_panorama_road",
+                  "name": "Panorama"
+                },
+                {
+                  "entity": "sensor.road_conditions_alberta_511_kicking_horse_road",
+                  "name": "Kicking Horse"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "Crowsnest Valley",
+              "show_header": true,
+              "entities": [
+                {
+                  "entity": "sensor.road_conditions_alberta_511_castle_mountain_road",
+                  "name": "Castle Mtn (via Hwy 22/3)"
+                },
+                {
+                  "entity": "sensor.road_conditions_alberta_511_fernie_road",
+                  "name": "Fernie"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "heading": "Live road cameras (refresh hourly)",
+              "icon": "mdi:cctv"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.road_conditions_alberta_511_kananaskis_hwy_742",
+              "camera_image": "camera.road_conditions_alberta_511_kananaskis_hwy_742",
+              "show_name": true,
+              "show_state": false,
+              "name": "Kananaskis Hwy 742"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.road_conditions_alberta_511_banff_hwy_1",
+              "camera_image": "camera.road_conditions_alberta_511_banff_hwy_1",
+              "show_name": true,
+              "show_state": false,
+              "name": "Banff Hwy 1"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.road_conditions_alberta_511_lake_louise_tch",
+              "camera_image": "camera.road_conditions_alberta_511_lake_louise_tch",
+              "show_name": true,
+              "show_state": false,
+              "name": "Lake Louise TCH"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.road_conditions_alberta_511_hwy_3_westcastle",
+              "camera_image": "camera.road_conditions_alberta_511_hwy_3_westcastle",
+              "show_name": true,
+              "show_state": false,
+              "name": "Hwy 3 Westcastle (Castle Mtn)"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.road_conditions_alberta_511_crowsnest_pass_hwy_3",
+              "camera_image": "camera.road_conditions_alberta_511_crowsnest_pass_hwy_3",
+              "show_name": true,
+              "show_state": false,
+              "name": "Crowsnest Pass Hwy 3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

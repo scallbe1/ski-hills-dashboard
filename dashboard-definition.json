@@ -1,0 +1,9 @@
+{
+  "id": "ski_conditions",
+  "url_path": "ski-conditions",
+  "title": "Ski Hills",
+  "icon": "mdi:ski-cross-country",
+  "show_in_sidebar": true,
+  "require_admin": false,
+  "mode": "storage"
+}
